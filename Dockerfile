@@ -1,4 +1,4 @@
-FROM python:3-slim
+FROM python:3.12.0b1-slim
 EXPOSE 3000
 WORKDIR /opt
 RUN apt update && \
